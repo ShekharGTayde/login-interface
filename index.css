@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    transition: .4s ease-in-out;
+}
+
+
+.card{
+    width: 350px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #0d1b2a;
+}
+.heading{
+    color: antiquewhite;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 25px;
+}
+.Username{
+    width: 81%;
+    padding: 5px;
+    margin: 25px;
+    border-radius: 10px;
+}
+.Password{
+    width: 81%;
+    padding: 5px;
+    margin: 25px;
+    border-radius: 10px;
+}
+.login{
+    margin: 20px 5px 20px 5px;
+    padding: 5px 52px 5px 52px;
+    border-radius: 10px;
+}
+.sign_up{
+    margin: 20px 5px 20px 5px;
+    padding: 5px 52px 5px 52px;
+    border-radius: 10px;
+}
+.forgot{
+    display: flex;
+    width: 85%;
+    padding: 5px;
+    margin: 20px 26px 20px 25px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.join{
+    display: flex;
+    justify-content: center;
+}
+
+.box:hover{
+    transform: scale(1.05);
+    border: 1px solid black;
+}
